@@ -1,11 +1,10 @@
-mpromise API for Scala.js
+mpromise binding for Scala.js
 ================================
-[mpromise](https://www.npmjs.com/package/mpromise) - A mpromise library for NodeJS.
+[mpromise](https://www.npmjs.com/package/mpromise) - A promises/A+ conformant implementation, written for mongoose.
 
 ### Description
 
-`mpromise` is a password hashing function designed by Niels Provos and David Mazières, 
-based on the Blowfish cipher, and presented at USENIX in 1999.
+A promises/A+ conformant implementation, written for [mongoose](https://github.com/scalajs-io/mongoose).
 
 ### Build Dependencies
 
