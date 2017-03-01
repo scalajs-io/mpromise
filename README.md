@@ -8,7 +8,6 @@ A promises/A+ conformant implementation, written for [mongoose](https://github.c
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -106,7 +105,7 @@ returnPromise.toFuture foreach { result =>
 To add the `mpromise` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "mpromise" % "0.5.5"
+libraryDependencies += "io.scalajs.npm" %%% "mpromise" % "0.5.5-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
