@@ -1,5 +1,7 @@
 package io.scalajs.npm
 
+import io.scalajs.nodejs.Error
+
 import scala.concurrent.{Future, Promise => ScalaPromise}
 import scala.scalajs.js
 
@@ -18,7 +20,7 @@ package object mpromise {
     @inline
     def toFuture: Future[T] = {
       val p = ScalaPromise[T]()
-      promise.onResolve { (err, result) =>
+      promise.onResolve { (err: Error, result: T) =>
         if (err != null) p.failure(js.JavaScriptException(err))
         else p.success(result)
       }
