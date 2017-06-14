@@ -105,7 +105,7 @@ returnPromise.toFuture foreach { result =>
 To add the `mpromise` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "mpromise" % "0.4.0-pre5"
+libraryDependencies += "io.scalajs.npm" %%% "mpromise" % "0.4.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
