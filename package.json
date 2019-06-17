@@ -1,9 +1,9 @@
 {
   "name": "mpromise-sjs",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
     "mpromise": "^0.5.5",
-    "source-map-support": "^0.4.14"
+    "source-map-support": "^0.5.12"
   }
 }
